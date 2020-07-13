@@ -1,0 +1,23 @@
+
+
+.popup-mobile-nav-menu__button {
+
+    height:56px;
+    width:100%;
+    background-color: transparent;
+    border: 1px solid;
+    color: inherit;
+    padding: 12px 19px;
+    display: flex;
+    justify-content: center;
+    position: static;
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 32px;
+
+
+}
+

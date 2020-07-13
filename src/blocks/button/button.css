@@ -1,0 +1,17 @@
+.button {
+  border-radius: 100px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  outline: none;
+  }
+
+
+
+  @media screen and (max-width:830px) {
+    .button {
+      font-size: 16px;
+    }
+  }

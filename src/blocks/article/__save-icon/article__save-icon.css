@@ -1,0 +1,75 @@
+.article__save-icon {
+  background-image: url("../../../images/normal.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  padding: 11px 13px 10px;
+  outline: none;
+  border-style: none;
+  border: none;
+}
+
+.article__save-icon:hover {
+
+  background-image: url("../../../images/hover.svg");
+
+  cursor: pointer;
+
+}
+
+.article__save-icon:hover +::after {
+
+  display: block;
+  content: "Войдите, чтобы сохранять статьи";
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  line-height: 14px;
+  background-color: #FFFFFF;
+  text-align: center;
+  border-radius: 8px;
+  position: absolute;
+  top: 24px;
+  right: 69px;
+  margin: 0;
+  padding: 13px 8px;
+  white-space: nowrap;
+  z-index: 4;
+
+  }
+
+
+
+
+.article__save-icon:active {
+
+  background-image: url("../../../images/marked.svg");
+
+  cursor: pointer;
+
+}
+
+@media screen and (max-width:839px) {
+ .article__save-icon {
+  top: 8px;
+  right: 8px;
+ }
+
+ .article__save-icon:hover +::after {
+
+
+  position: absolute;
+  top: 8px;
+  right: 50px;
+  padding: 13px 2px;
+
+
+  }
+ }

@@ -1,0 +1,27 @@
+.footer__nav-menu {
+    margin: 0 106px 0 0;
+    display: flex;
+}
+
+
+
+
+
+@media screen and (max-width:868px) {
+  .footer__nav-menu  {
+
+    margin: 0 41px 0 0;
+  }
+
+}
+
+@media screen and (max-width:710px) {
+  .footer__nav-menu {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 16px 0 0;
+
+  }
+}
+

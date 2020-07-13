@@ -1,0 +1,46 @@
+.main__button {
+  border-style: none;
+  height: 64px;
+  width: 168px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #2F71E5;
+  color: #FFFFFF;
+
+}
+
+.main__button:hover {
+
+  background-color: #347EFF;
+  cursor: pointer;
+
+}
+
+.main__button:active {
+
+  background-color: #2A65CC;
+
+}
+
+@media screen and (max-width:780px) {
+  .main__button  {
+
+    height: 56px;
+    width: 160x;
+  }
+
+}
+
+@media screen and (max-width:470px) {
+  .main__button  {
+
+    height: 56px;
+    width: 100%;
+    position: static;
+    margin-top: 16px;
+  }
+
+}
+
+

@@ -1,0 +1,31 @@
+@import url('./__title/main__title.css');
+@import url('./__description/main__decription.css');
+@import url('./__form/main__form.css');
+@import url('./__button/main__button.css');
+@import url('./__input/main__input.css');
+
+.main {
+  background-image: url('../../images/82f1206f112335e2ee4d938ba64f02d6.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 1;
+
+}
+
+.main::before {
+  content: "";
+  background-color:rgba(0, 0, 0, 0.45);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+}

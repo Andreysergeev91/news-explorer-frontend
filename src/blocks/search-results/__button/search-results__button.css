@@ -1,0 +1,40 @@
+.search-results__button {
+width: 288px;
+height: 68px;
+border-style: none;
+background-color: #FFFFFF;
+align-self: center;
+margin: 0 0 80px 0;
+}
+
+
+.search-results__button:hover {
+
+
+  opacity: 0.7;
+  cursor: pointer;
+
+}
+
+.search-results__button:active {
+
+  background-color: #2A65CC;
+
+}
+
+@media screen and (max-width:800px) {
+  .search-results__button {
+    width: 240px;
+    height: 56px;
+    margin: 0 0 40px 0;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+  .search-results__button {
+    width: 288px;
+    height: 56px;
+    margin:0 0 32px 0;
+    }
+}

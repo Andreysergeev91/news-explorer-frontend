@@ -1,0 +1,45 @@
+.article__delete-icon-image {
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  object-fit: scale-down;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  display: block;
+
+}
+
+
+
+.article__delete-icon-image:hover +::after {
+
+display: block;
+content: "Убрать из сохранённых";
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 14px;
+background-color: #FFFFFF;
+text-align: center;
+border-radius: 8px;
+position: absolute;
+top: 0px;
+right: 45px;
+margin: 0;
+padding: 13px 16px;
+white-space: nowrap;
+z-index: 4;
+
+}
+
+
+
+@media screen and (max-width:839px) {
+ .article__delete-icon {
+  top: 8px;
+  right: 8px;
+ }
+ }

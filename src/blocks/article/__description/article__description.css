@@ -1,0 +1,25 @@
+.article__description {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  height: 304px;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 20px 24px 24px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  position: relative;
+
+
+
+}
+
+
+@media screen and (max-width:839px) {
+ .article__description {
+  height: 270px;
+  padding: 16px;
+ }
+
+}
