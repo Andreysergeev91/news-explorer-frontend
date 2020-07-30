@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Сохранённые статьи</title>
-  <link rel="stylesheet" href="styles/savedArticles.6df56c819ce95f96487a.css">
+  <link rel="stylesheet" href="styles/savedArticles.cd9713318fefbaa55a7e.css">
   <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
 </head>
 <body>
@@ -14,92 +14,47 @@
       <a href="#" class="header__link-home">NewsExplorer</a>
       <nav class="header__nav-menu">
         <a href="./index.html" class="header__link">Главная</a>
-        <a href="" class="header__link header__link_type_active">Сохранённые статьи</a>
-        <button class="header__button header__button_type_authorized button"><span>Грета</span><img class="header__button-image" src="./images/logout_black.svg" alt="logout"></button>
+        <a href="" class="header__link header__link_type_active header__link_type_saved-articles">Сохранённые статьи</a>
+        <button style="display: none;"
+            class="header__button header__button_type_authorized button"><span class="user-name"></span><img
+              class="header__button-image" src="./images/logout_black.svg" alt="logout"></button>
       </nav>
       <a href="#" class="header__nav-button-mobile"><img src="./images/menu-black.svg" alt="menu"></a>
     </header>
     <section class="saved-news">
       <p class="saved-news__title">Сохранённые статьи</p>
-      <h2 class="saved-news__quantity">Грета, у вас 5 сохранённых статей</h2>
-      <p class="saved-news__key-words">По ключевым словам: <b>Природа,</b>&nbsp;<b>Тайга</b>&nbsp;и&nbsp;<b>2 другим</b></p>
+      <h2 class="saved-news__quantity"></h2>
+      <p class="saved-news__key-words"></b></p>
     </section>
     <div class="popup popup-mobile-nav-menu">
       <div class="popup-mobile-nav-menu__content">
         <header class="popup-mobile-nav-menu__header">
           <a href="#" class="popup-mobile-nav-menu__link-home">NewsExplorer</a>
-          <img class="popup-mobile-nav-menu__close" src="./images/close.svg" alt="close">
+          <img class="popup__close popup-mobile-nav-menu__close" src="./images/close.svg" alt="close">
         </header>
         <a href="./index.html" class="popup-mobile-nav-menu__link">Главная</a>
-        <a href="./saved-articles.html" class="popup-mobile-nav-menu__link">Сохранённые статьи</a>
-        <button class="header__button header__button_type_not-authorized button button popup-mobile-nav-menu__button">Авторизоваться</button>
-        <button class="header__button header__button_type_authorized button popup-mobile-nav-menu__button"><span>Грета</span><img class="header__button-image" src="./images/logout.svg" alt="logout"></button>
+        <a href="./saved-articles.html" class="popup-mobile-nav-menu__link popup-mobile-nav-menu__link_type_saved-articles" style="display: none;">Сохранённые статьи</a>
+        <button
+          class="header__button header__button_type_not-authorized button button popup-mobile-nav-menu__button popup-mobile-nav-menu__button_type_not-authorized">Авторизоваться</button>
+        <button
+          class="header__button header__button_type_authorized button popup-mobile-nav-menu__button" style="display: none;"><span class="user-name"></span><img
+            class="header__button-image" src="./images/logout.svg" alt="logout"></button>
       </div>
     </div>
     <section class="search-results">
       <div class="search-results__articles">
-      <div class="article">
-        <div class="article__image" style="background-image: url('./images/image_08.jpg');">
-          <div class="article__delete-icon"><img class="article__delete-icon-image" src="./images/trash.svg" alt="">
-          <div></div>
-          </div>
-          <p class="article__tag">Природа</p>
         </div>
-        <div class="article__description">
-          <p class="article__date">2 августа, 2019</p>
-          <p class="article__title">Национальное достояние – парки</p>
-          <p class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться
-            система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-          <p class="article__source">Лента.ру</p>
-        </div>
-      </div>
-      <div class="article">
-        <div class="article__image" style="background-image: url('./images/image_08.jpg');">
-          <div class="article__delete-icon"><img class="article__delete-icon-image" src="./images/trash.svg" alt="">
-            <div></div>
-            </div>
-          <p class="article__tag">Тайга</p>
-        </div>
-        <div class="article__description">
-          <p class="article__date">2 августа, 2019</p>
-          <p class="article__title">Национальное достояние – парки</p>
-          <p class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться
-            система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-          <p class="article__source">Лента.ру</p>
-        </div>
-      </div>
-      <div class="article">
-        <div class="article__image" style="background-image: url('./images/image_08.jpg');">
-          <div class="article__delete-icon"><img class="article__delete-icon-image" src="./images/trash.svg" alt="">
-            <div></div>
-            </div>
-          <p class="article__tag">Тайга</p>
-        </div>
-        <div class="article__description">
-          <p class="article__date">2 августа, 2019</p>
-          <p class="article__title">Национальное достояние – парки</p>
-          <p class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться
-            система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-          <p class="article__source">Лента.ру</p>
-        </div>
-      </div>
-      <div class="article">
-        <div class="article__image" style="background-image: url('./images/image_08.jpg');">
-          <div class="article__delete-icon"><img class="article__delete-icon-image" src="./images/trash.svg" alt="">
-            <div></div>
-            </div>
-          <p class="article__tag">Фотография</p>
-        </div>
-        <div class="article__description">
-          <p class="article__date">2 августа, 2019</p>
-          <p class="article__title">Национальное достояние – парки</p>
-          <p class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться
-            система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-          <p class="article__source">Лента.ру</p>
-        </div>
-      </div>
-    </div>
-    <button class="button search-results__button">Показать еще</button>
+    <button class="button search-results__button" style="display: none;">Показать еще</button>
+    </section>
+    <section class="preloader">
+      <i class="preloader__animation"></i>
+      <p class="preloader__description">Идет поиск новостей...</p>
+    </section>
+    <section class="not-found">
+      <img src="./images/not-found_v1.svg" alt="" class="not-found__image">
+      <h3 class="not-found__title">Ничего не найдено</h3>
+      <p class="not-found__description">К сожалению по вашему запросу
+        ничего не найдено.</p>
     </section>
     <footer class="footer">
       <p class="footer__copyrigth">&copy;&nbsp;2020&nbsp;Supersite, Powered by News API</p>
@@ -120,6 +75,6 @@
 
     </footer>
   </div>
-  <script type="module" src="savedArticles.3311175157eddc0d1979.js"></script>
+  <script type="module" src="savedArticles.2e8a8914579af7fdb2cf.js"></script>
   </body>
 </html>
