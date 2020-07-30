@@ -1,0 +1,26 @@
+@import url('./_type_active/header__link_type_active.css');
+
+.header__link {
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 32px;
+  padding-bottom: 25px;
+  color:inherit;
+
+}
+
+
+@media screen and (max-width:830px) {
+
+  .header__link {
+    font-size: 16px;
+    padding-bottom: 20px;
+
+  }
+}

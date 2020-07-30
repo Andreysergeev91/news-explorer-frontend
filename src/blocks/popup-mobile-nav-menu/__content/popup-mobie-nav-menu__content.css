@@ -1,0 +1,19 @@
+
+
+@media screen and (max-width:400px) {
+.popup-mobile-nav-menu__content {
+    top: 0;
+    background-color: #1A1B22;
+    height: 286px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 16px 24px;
+    border-radius: 16px;
+    position: relative;
+    color: white;
+    box-sizing: border-box;
+}
+
+}

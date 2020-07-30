@@ -1,0 +1,17 @@
+.footer__link-image {
+  text-decoration-line: none;
+  margin: 0 28px 0 0;
+}
+
+.footer__link-image:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width:800px) {
+  .footer__link-image {
+
+
+    margin: 0 28px 0 0;
+
+}
+}

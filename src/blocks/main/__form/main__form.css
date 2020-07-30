@@ -1,0 +1,25 @@
+.main__form {
+  position: relative;
+  margin-bottom: 80px;
+  width: 608px;
+
+  }
+
+
+  @media screen and (max-width:780px) {
+    .main__form  {
+      margin-bottom: 48px;
+      width: 448px;
+    }
+
+  }
+
+  @media screen and (max-width:470px) {
+    .main__form  {
+
+      margin-bottom: 48px;
+      width: calc(100% - 32px);
+      align-self: center;
+    }
+
+  }

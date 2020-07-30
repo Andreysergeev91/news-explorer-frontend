@@ -1,0 +1,32 @@
+
+.main__decription {
+
+
+    max-width: 545px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 32px 0 64px 0;
+
+}
+
+
+@media screen and (max-width:780px) {
+  .main__decription  {
+    max-width: 452px;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 16px 0 48px 0;
+  }
+
+}
+
+@media screen and (max-width:470px) {
+  .main__decription  {
+    max-width: 90%;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 16px 0 122px 16px;
+
+  }
+
+}

@@ -1,0 +1,29 @@
+.header__link-home {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  margin-left: 104px;
+  color: inherit;
+
+}
+
+
+
+@media screen and (max-width:830px) {
+
+  .header__link-home {
+    margin-left: 40px;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+
+  .header__link-home {
+    margin-left: 16px;
+    font-size: 16px
+  }
+}

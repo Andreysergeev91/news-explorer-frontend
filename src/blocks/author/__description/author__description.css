@@ -1,0 +1,23 @@
+.author__description {
+  max-width: 600px;
+  color: #1A1B22;
+  margin: 0 0 24px 0;
+}
+
+
+@media screen and (max-width:880px) {
+  .author__description  {
+
+    max-width: 424px;
+    margin: 0 0 32px 0;
+  }
+
+}
+
+@media screen and (max-width:600px) {
+  .author__description  {
+    max-width: 288px;
+    margin: 0 0 32px 0;
+  }
+}
+

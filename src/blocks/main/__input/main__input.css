@@ -1,0 +1,48 @@
+.main__input {
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  width: 607px;
+  height: 64px;
+  border-radius: 100px;
+  line-height: 22px;
+  text-align: left;
+  margin: 0;
+  border-style: none;
+  padding: 0 208px 0 24px;
+  box-sizing: border-box;
+
+}
+
+.main__input::placeholder {
+
+  color: #B6BCBF;
+
+}
+
+.main__input:focus {
+  outline: none;
+  color: #1A1B22;
+
+}
+
+@media screen and (max-width:780px) {
+  .main__input  {
+
+  width: 448px;
+  height: 56px;
+  }
+
+}
+
+@media screen and (max-width:470px) {
+  .main__input  {
+
+    width: 100%;
+    padding: 0 24px 0 24px;
+
+  }
+
+}

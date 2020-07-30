@@ -1,0 +1,14 @@
+@import url('./_theme_blue/popup__bottom-link_theme_blue.css');
+
+.popup__bottom-link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-decoration: none;
+  margin: 16px 0 0 0;
+
+
+}

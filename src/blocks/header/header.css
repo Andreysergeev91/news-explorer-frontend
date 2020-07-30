@@ -1,0 +1,28 @@
+@import url('./__button/header__button.css');
+@import url('./__link-home/header__link-home.css');
+@import url('./__link/header__link.css');
+@import url('./__link-saved-news/header__link-saved-news.css');
+@import url('./__nav-menu/header__nav-menu.css');
+@import url('./_theme/header_theme_black.css');
+@import url('./_theme/header_theme_white.css');
+@import url('./__button-image/header__button-image.css');
+@import url('./__nav-button-mobile/header__nav-button-mobile.css');
+
+
+.header {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+
+ }
+
+
+ @media screen and (max-width:830px) {
+
+  .header {
+    min-height: 66px;
+  }
+}

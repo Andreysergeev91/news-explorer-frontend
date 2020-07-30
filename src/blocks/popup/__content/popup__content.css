@@ -1,0 +1,21 @@
+@import url('./_type_signin/popup__content_type_signin.css');
+@import url('./_type_signup/popup__content_type_signup.css');
+@import url('./_type_succesful-registration/popup__content_type_succesful-registration.css');
+
+.popup__content {
+  width: 430px;
+  background-color: #fff;
+  border-radius: 16px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 34px 35px 28px;
+  }
+
+@media screen and (max-width: 768px) {
+  .popup__content {
+    width: 100%;
+    position: absolute;
+    top: 56px;
+    height: 100%;
+  }
+}

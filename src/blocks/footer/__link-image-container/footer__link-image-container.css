@@ -1,0 +1,8 @@
+.footer__link-image-container {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  min-width: 68px;
+  padding: 0;
+  margin: 0;
+}

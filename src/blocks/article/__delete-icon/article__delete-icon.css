@@ -1,0 +1,32 @@
+.article__delete-icon {
+
+
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  outline: none;
+  border-style: none;
+  border: none;
+
+}
+
+.article__delete-icon:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:839px) {
+ .article__delete-icon {
+  top: 8px;
+  right: 8px;
+ }
+ }
