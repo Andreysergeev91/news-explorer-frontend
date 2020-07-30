@@ -1,4 +1,4 @@
-.article__save-icon {
+.article__save-icon-authorized {
   background-image: url("../../../images/normal.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -16,7 +16,7 @@
   z-index: 10;
 }
 
-.article__save-icon:hover {
+.article__save-icon-authorized:hover {
 
   background-image: url("../../../images/hover.svg");
 
@@ -25,10 +25,10 @@
 
 }
 
-.article__save-icon:hover +::after {
+.article__save-icon-authorized:hover +::after {
 
   display: block;
-  content: "Войдите, чтобы сохранить статьи";
+  content: "Нажмите, чтобы сохранить статьи";
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -50,7 +50,7 @@
 
 
 
-.article__save-icon:active {
+.article__save-icon-authorized:active {
 
   background-image: url("../../../images/marked.svg");
 
@@ -59,12 +59,12 @@
 }
 
 @media screen and (max-width:839px) {
- .article__save-icon {
+ .article__save-icon-authorized {
   top: 8px;
   right: 8px;
  }
 
- .article__save-icon:hover +::after {
+ .article__save-icon-authorized:hover +::after {
 
 
   position: absolute;

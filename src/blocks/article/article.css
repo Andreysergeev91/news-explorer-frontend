@@ -2,12 +2,14 @@
 @import url('./__description/article__description.css');
 @import url('./__image/article__image.css');
 @import url('./__save-icon/article__save-icon.css');
+@import url('./__save-icon-authorized/article__save-icon-authorized.css');
 @import url('./__delete-icon/article__delete-icon.css');
 @import url('./__delete-icon-image/article__delete-icon-image.css');
 @import url('./__tag/article__tag.css');
 @import url('./__source/article__source.css');
 @import url('./__text/article__text.css');
 @import url('./__title/article__title.css');
+@import url('./__link/article__link.css');
 
 
 
@@ -16,6 +18,7 @@
   border-radius: 16px;
   height: 576px;
   margin: 0;
+  position: relative;
 
  }
 

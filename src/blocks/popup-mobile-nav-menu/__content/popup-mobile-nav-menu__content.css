@@ -1,7 +1,9 @@
 
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:660px) {
 .popup-mobile-nav-menu__content {
+    width: 100%;
+    align-self: flex-start;
     top: 0;
     background-color: #1A1B22;
     height: 286px;
