@@ -17,10 +17,10 @@
         <a href="#" class="header__link-home">NewsExplorer</a>
         <nav class="header__nav-menu">
           <a href="./index.html" class="header__link link header__link_type_active">Главная</a>
-          <a href="./saved-articles.html" class="header__link link">Сохранённые статьи</a>
+          <a href="./saved-articles.html" class="header__link link header__link_type_saved-articles" style="display: none;">Сохранённые статьи</a>
           <button class="header__button header__button_type_not-authorized button">Авторизоваться</button>
           <button style="display: none;"
-            class="header__button header__button_type_authorized button"><span>Грета</span><img
+            class="header__button header__button_type_authorized button"><span class="user-name"></span><img
               class="header__button-image" src="<%=require('./images/logout.svg').default%>" alt="logout"></button>
         </nav>
         <a href="#" class="header__nav-button-mobile"><img src="<%=require('./images/menu.svg').default%>"
@@ -31,7 +31,7 @@
         <p class="text-block main__decription">Находите самые свежие статьи на любую тему и сохраняйте в своём личном
           кабинете.</p>
         <form action="" class="main__form">
-          <input class="input main__input" type="text" placeholder="Введите тему новости">
+          <input class="input main__input" name="search" type="text" placeholder="Введите тему новости" required>
           <button class="main__button button">Искать</button>
         </form>
       </div>
@@ -40,78 +40,22 @@
       <div class="popup-mobile-nav-menu__content">
         <header class="popup-mobile-nav-menu__header">
           <a href="#" class="popup-mobile-nav-menu__link-home">NewsExplorer</a>
-          <img class="popup-mobile-nav-menu__close" src="<%=require('./images/close.svg').default%>" alt="close">
+          <img class="popup__close popup-mobile-nav-menu__close" src="<%=require('./images/close.svg').default%>" alt="close">
         </header>
         <a href="./index.html" class="popup-mobile-nav-menu__link">Главная</a>
-        <a href="./saved-articles.html" class="popup-mobile-nav-menu__link">Сохранённые статьи</a>
+        <a href="./saved-articles.html" class="popup-mobile-nav-menu__link popup-mobile-nav-menu__link_type_saved-articles" style="display: none;">Сохранённые статьи</a>
         <button
-          class="header__button header__button_type_not-authorized button button popup-mobile-nav-menu__button">Авторизоваться</button>
+          class="header__button header__button_type_not-authorized button button popup-mobile-nav-menu__button popup-mobile-nav-menu__button_type_not-authorized">Авторизоваться</button>
         <button
-          class="header__button header__button_type_authorized button popup-mobile-nav-menu__button"><span>Грета</span><img
+          class="header__button header__button_type_authorized button popup-mobile-nav-menu__button" style="display: none;"><span class="user-name"></span><img
             class="header__button-image" src="<%=require('./images/logout.svg').default%>" alt="logout"></button>
       </div>
     </div>
-    <section class="search-results">
+    <section class="search-results" style="display: none;">
       <div class="search-results__articles">
         <h2 class="search-results__title">Результаты поиска</h2>
-        <div class="article">
-          <div class="article__image"
-            style="background-image: url('<%=require('./images/image_08.jpg').default%>');">
-            <button class="article__save-icon"></button>
-            <div></div>
-          </div>
-          <div class="article__description">
-            <p class="article__date">2 августа, 2019</p>
-            <p class="article__title">Национальное достояние – парки</p>
-            <p class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться
-              система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-            <p class="article__source">Лента.ру</p>
-          </div>
         </div>
-        <div class="article">
-          <div class="article__image"
-            style="background-image: url('<%=require('./images/image_08.jpg').default%>');">
-            <button class="article__save-icon"></button>
-            <div></div>
-          </div>
-          <div class="article__description">
-            <p class="article__date">2 августа, 2019</p>
-            <p class="article__title">Национальное достояние – парки</p>
-            <p class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться
-              система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-            <p class="article__source">Лента.ру</p>
-          </div>
-        </div>
-        <div class="article">
-          <div class="article__image"
-            style="background-image: url('<%=require('./images/image_08.jpg').default%>');">
-            <button class="article__save-icon"></button>
-            <div></div>
-          </div>
-          <div class="article__description">
-            <p class="article__date">2 августа, 2019</p>
-            <p class="article__title">Национальное достояние – парки</p>
-            <p class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться
-              система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-            <p class="article__source">Лента.ру</p>
-          </div>
-        </div>
-        <div class="article">
-          <div class="article__image"
-            style="background-image: url('<%=require('./images/image_08.jpg').default%>');">
-            <button class="article__save-icon"></button>
-            <div></div>
-          </div>
-          <div class="article__description">
-            <p class="article__date">2 августа, 2019</p>
-            <p class="article__title">Национальное достояние – парки</p>
-            <p class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться
-              система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-            <p class="article__source">Лента.ру</p>
-          </div>
-        </div>
-      </div>
-      <button class="button search-results__button">Показать еще</button>
+      <button class="button search-results__button" style="display: none;">Показать еще</button>
     </section>
     <section class="preloader">
       <i class="preloader__animation"></i>
@@ -151,18 +95,19 @@
        </nav>
 
     </footer>
-    <div class="popup popup-signin">
+     <div class="popup popup-signin">
       <div class="popup__content popup__content_type_signin">
         <img class="popup__close" src="<%=require('./images/close.svg').default%>" alt="">
         <p class="popup__title">Вход</p>
-        <form class="popup__form" action="">
+        <form class="popup__form popup__form-signin" action="" novalidate>
           <p class="popup__input-name">Email</p>
-          <input class="popup__input" placeholder="Введите почту" type="email">
+          <input class="popup__input" name="email" placeholder="Введите почту" type="email" required>
           <p class="popup__input-error-message popup__input-error-message_type_email">Неправильный формат email</p>
           <p class="popup__input-name">Пароль</p>
-          <input class="popup__input" placeholder="Введите пароль" type="password">
+          <input class="popup__input" name="password" placeholder="Введите пароль" type="password" required>
           <p class="popup__input-error-message popup__input-error-message_type_password">Пароль должен состоять минимум
             из 8 символов</p>
+            <p class="popup__input-error-message popup__input-error-message_type_user">Такой пользователь уже есть</p>
           <button class="button popup__button button-inactive" disabled>Войти</button>
           <p class="popup__bottom-link">или&nbsp;<a href="#"
               class="popup__bottom-link popup__bottom-link_theme_blue">Зарегистрироваться</a></p>
@@ -173,16 +118,16 @@
       <div class="popup__content popup__content_type_signup">
         <img class="popup__close" src="<%=require('./images/close.svg').default%>" alt="">
         <p class="popup__title">Регистрация</p>
-        <form class="popup__form" action="">
+        <form class="popup__form popup__form-signup" action="" novalidate>
           <p class="popup__input-name">Email</p>
-          <input class="popup__input" placeholder="Введите почту" type="email">
+          <input class="popup__input" name="email" placeholder="Введите почту" type="email" required>
           <p class="popup__input-error-message popup__input-error-message_type_email">Неправильный формат email</p>
           <p class="popup__input-name">Пароль</p>
-          <input class="popup__input" placeholder="Введите пароль" type="password">
+          <input class="popup__input" name="password" placeholder="Введите пароль" type="password" required>
           <p class="popup__input-error-message popup__input-error-message_type_password">Пароль должен состоять минимум
             из 8 символов</p>
           <p class="popup__input-name">Имя</p>
-          <input class="popup__input" placeholder="Введите своё имя" type="text">
+          <input class="popup__input" name="name" placeholder="Введите своё имя" type="text" required>
           <p class="popup__input-error-message popup__input-error-message_type_name">Поле не должно быть пустым</p>
           <p class="popup__input-error-message popup__input-error-message_type_user">Такой пользователь уже есть</p>
           <button class="button popup__button button-inactive" disabled>Зарегистрироваться</button>
